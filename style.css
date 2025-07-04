@@ -1,0 +1,34 @@
+/*
+Theme Name: DadeCore Theme
+Theme URI: https://dadecore.com
+Author: DadeCore LLC
+Author URI: https://dadecore.com
+Description: A modern, professional WordPress theme for DadeCore LLC, designed as a "Digital Operations Hub".
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, one-column, custom-menu, featured-images, theme-options, translation-ready
+Text Domain: dadecore-theme
+*/
+
+:root {
+    --dark-blue: #0A192F;
+    --tech-green: #64FFDA;
+    --light-grey: #CCD6F6;
+    --dark-grey: #8892B0;
+    --background-color: var(--dark-blue);
+    --text-color: var(--light-grey);
+    --accent-color: var(--tech-green);
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+}
+
+a {
+    color: var(--accent-color);
+}
